@@ -1,0 +1,12 @@
+function doGet(e) {
+  var destinatario = e.parameter.to;
+  var asunto = e.parameter.subject;
+  var cuerpo = e.parameter.body;
+
+  if (destinatario && asunto && cuerpo) {
+    GmailApp.sendEmail(destinatario, asunto, cuerpo);
+    return ContentService.createTextOutput("Correo enviado a " + destinatario);
+  } else {
+    return ContentService.createTextOutput("Faltan parámetros. Uso: ?to=destinatario&subject=asunto&body=cuerpo");
+  }
+}
