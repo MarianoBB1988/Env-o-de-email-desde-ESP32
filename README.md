@@ -27,3 +27,5 @@ El ESP32 lee por el **Serial Monitor** el destinatario, el asunto y el cuerpo de
 2. Copiar el código en el script.
 3. Cargar el código en C++ en Arduino IDE con el ESP32 conectado.
 
+Autor:
+Mariano Bastarreix
