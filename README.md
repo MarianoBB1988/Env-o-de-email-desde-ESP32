@@ -19,13 +19,13 @@ El ESP32 lee por el **Serial Monitor** el destinatario, el asunto y el cuerpo de
 ## Configuración del Apps Script
 
 1. Crear un nuevo proyecto en [Google Apps Script](https://script.google.com/).
-2. Copiar el siguiente código en el script:
+2. Copiar el código que se encuentra en Script GOOGLE y pegarlo en el proyecto.
 
-## Configuración del Apps Script
+## Configuración del ESP32
 
-1. Crear un nuevo proyecto en [Google Apps Script](https://script.google.com/).
-2. Copiar el código en el script.
-3. Cargar el código en C++ en Arduino IDE con el ESP32 conectado.
+1.Cargar el contenido el .ino en Arduino IDE.
+2. Grabarlo en el ESP32
+3. Realizar prueba de envío desde el serial monitor.
 
 Autor:
 Mariano Bastarreix
