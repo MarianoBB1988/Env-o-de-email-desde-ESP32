@@ -23,7 +23,7 @@ El ESP32 lee por el **Serial Monitor** el destinatario, el asunto y el cuerpo de
 
 ## Configuración del ESP32
 
-1.Cargar el contenido el .ino en Arduino IDE.
+1. Cargar el contenido el .ino en Arduino IDE.
 2. Grabarlo en el ESP32
 3. Realizar prueba de envío desde el serial monitor.
 
